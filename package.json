@@ -1,0 +1,30 @@
+{
+  "name": "@valeo/chainlink-x402",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pay-per-request Chainlink Data Feeds via x402 payment protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.4",
+    "express": "^4.21.1",
+    "x402-express": "^1.1.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "keywords": ["chainlink", "x402", "oracle", "price-feed", "pay-per-request", "valeo"],
+  "author": "Valeo <https://valeo.cash>",
+  "license": "MIT"
+}
