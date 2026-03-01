@@ -41,7 +41,7 @@ No API keys. No accounts. No subscriptions. Just USDC and a wallet.
 
 ## Available Feeds (Base Mainnet)
 
-ETH/USD, BTC/USD, LINK/USD, USDC/USD, DAI/USD, cbETH/ETH
+ETH/USD, BTC/USD, USDC/USD, DAI/USD
 
 ## Making Paid Requests
 
